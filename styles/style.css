@@ -1,0 +1,70 @@
+/* gba(75, 18, 72, 0.900) */
+html,
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+nav {
+    margin-top: 10px;
+    z-index: 999;
+}
+nav .container {
+    background: white;
+    border-radius: 50px;
+    padding: 15px 50px;
+}
+
+.navbar-brand {
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.nav-link {
+    margin-right: 20px;
+    color: rgb(58, 58, 58) !important;
+}
+
+.navbar-nav > .actives {
+    color: blue !important;
+}
+
+a {
+    color: black;
+}
+
+.main {
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795f1, rgba(0, 93, 151, 0.900)), url("/images/home-bg.jpg"); ;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795f1, rgba(0, 93, 151, 0.900)), url("/images/home-bg.jpg"); ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.main h1 {
+    color: white;
+    margin-top: 30vh;
+    font-size: 300% !important;
+    font-weight: 700 !important;
+    margin-bottom: 30px;
+}
+.main p {
+    color: rgb(182, 182, 182);
+    margin-bottom: 60px;
+}
+.btn-primary {
+    background-color: rgb(173, 58, 189) !important;
+}
+.creative {
+    color: rgb(173, 58, 189);
+}
+
+.curve-img {
+    background: url("/images/curv-img.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
