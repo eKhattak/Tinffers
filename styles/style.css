@@ -1,4 +1,4 @@
-/* gba(75, 18, 72, 0.900) */
+/* rgba(75, 18, 72, 0.900) */
 html,
 body {
     font-family: 'Lato', sans-serif !important;
@@ -21,10 +21,16 @@ nav .container {
 .nav-link {
     margin-right: 20px;
     color: rgb(58, 58, 58) !important;
+    font-weight: bold;
 }
 
-.navbar-nav > .actives {
-    color: blue !important;
+.navbar-nav > .actived > .nav-link {
+    color: rgba(167, 52, 161, 0.9) !important;
+}
+
+.nav-link:hover {
+    color: rgba(167, 52, 161, 0.9) !important;
+    transition: color 0.2s;
 }
 
 a {
@@ -48,12 +54,27 @@ a {
     font-weight: 700 !important;
     margin-bottom: 30px;
 }
+
 .main p {
     color: rgb(182, 182, 182);
     margin-bottom: 60px;
 }
+
+p{
+    color: rgb(126, 126, 126) !important;
+}
+
+
 .btn-primary {
+    background-color: rgba(216, 87, 210, 0.9) !important;
+    z-index: 999;
+    border: none;
+    padding: 10px 30px;
+}
+.btn-primary:hover {
     background-color: rgb(173, 58, 189) !important;
+    transition: background-color 0.5s;
+
 }
 .creative {
     color: rgb(173, 58, 189);
@@ -67,4 +88,24 @@ a {
     width: 100%;
     position: absolute;
     top: 0%;
+}
+
+
+/* SECTION: About US */
+
+.small-title {
+    background-color: rgba(174, 58, 189, 0.295);
+    color: rgba(174, 58, 189) !important;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;    
+}
+
+.btn-outline-primary {
+    border:1px solid rgb(150, 35, 144) !important;
+    color: rgb(150, 35, 144);
+}
+.btn-outline-primary:hover {
+    background: rgb(150, 35, 144);
+    transition: background 0.5s, color 0.5s;
 }
